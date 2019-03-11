@@ -1,0 +1,19 @@
+{
+    "name": "neoteched/test_packagist",
+    "description": "This is Test Commit Code To Packagist Site.",
+    "authors": [
+        {
+            "name": "BoBoGitHub Neoteched"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    	"php": ">=7.1",
+	"monolog/monolog": "1.2.*"
+    },
+    "autoload":{
+	"psr-4": {
+		"neoteched\\test\\packagist\\": "src/"
+	}
+    }
+}
